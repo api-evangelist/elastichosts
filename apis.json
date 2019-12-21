@@ -10,8 +10,8 @@
         "have api",
         "isp"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/elastichosts\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -25,17 +25,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/elastichosts-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/elastichosts-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/elastichosts\/master\/elastichosts-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base",
             "url": "https:\/\/api-lon-p.elastichosts.com\/#sthash.vWizLzpd.dpuf"
